@@ -1,0 +1,255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03A89A9C1D93CD38000AB035 /* XCTest_Stub.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 03A89A9B1D93CD38000AB035 /* XCTest_Stub.h */; };
+		03A89A9E1D93CD38000AB035 /* XCTest_Stub.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A89A9D1D93CD38000AB035 /* XCTest_Stub.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		03A89A961D93CD38000AB035 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				03A89A9C1D93CD38000AB035 /* XCTest_Stub.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03A89A981D93CD38000AB035 /* libXCTest-Stub.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libXCTest-Stub.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03A89A9B1D93CD38000AB035 /* XCTest_Stub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCTest_Stub.h; sourceTree = "<group>"; };
+		03A89A9D1D93CD38000AB035 /* XCTest_Stub.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCTest_Stub.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03A89A951D93CD38000AB035 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03A89A8F1D93CD38000AB035 = {
+			isa = PBXGroup;
+			children = (
+				03A89A9A1D93CD38000AB035 /* XCTest-Stub */,
+				03A89A991D93CD38000AB035 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03A89A991D93CD38000AB035 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03A89A981D93CD38000AB035 /* libXCTest-Stub.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03A89A9A1D93CD38000AB035 /* XCTest-Stub */ = {
+			isa = PBXGroup;
+			children = (
+				03A89A9B1D93CD38000AB035 /* XCTest_Stub.h */,
+				03A89A9D1D93CD38000AB035 /* XCTest_Stub.m */,
+			);
+			path = "XCTest-Stub";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03A89A971D93CD38000AB035 /* XCTest-Stub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03A89AA11D93CD38000AB035 /* Build configuration list for PBXNativeTarget "XCTest-Stub" */;
+			buildPhases = (
+				03A89A941D93CD38000AB035 /* Sources */,
+				03A89A951D93CD38000AB035 /* Frameworks */,
+				03A89A961D93CD38000AB035 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XCTest-Stub";
+			productName = "XCTest-Stub";
+			productReference = 03A89A981D93CD38000AB035 /* libXCTest-Stub.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03A89A901D93CD38000AB035 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "organismo-mobile";
+				TargetAttributes = {
+					03A89A971D93CD38000AB035 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 03A89A931D93CD38000AB035 /* Build configuration list for PBXProject "XCTest-Stub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03A89A8F1D93CD38000AB035;
+			productRefGroup = 03A89A991D93CD38000AB035 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03A89A971D93CD38000AB035 /* XCTest-Stub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03A89A941D93CD38000AB035 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A89A9E1D93CD38000AB035 /* XCTest_Stub.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		03A89A9F1D93CD38000AB035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03A89AA01D93CD38000AB035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03A89AA21D93CD38000AB035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		03A89AA31D93CD38000AB035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03A89A931D93CD38000AB035 /* Build configuration list for PBXProject "XCTest-Stub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03A89A9F1D93CD38000AB035 /* Debug */,
+				03A89AA01D93CD38000AB035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03A89AA11D93CD38000AB035 /* Build configuration list for PBXNativeTarget "XCTest-Stub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03A89AA21D93CD38000AB035 /* Debug */,
+				03A89AA31D93CD38000AB035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03A89A901D93CD38000AB035 /* Project object */;
+}
