@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03A89A9C1D93CD38000AB035 /* XCTest_Stub.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 03A89A9B1D93CD38000AB035 /* XCTest_Stub.h */; };
-		03A89A9E1D93CD38000AB035 /* XCTest_Stub.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A89A9D1D93CD38000AB035 /* XCTest_Stub.m */; };
+		03A89AA81D93D4BF000AB035 /* XCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A89AA71D93D4BF000AB035 /* XCTest.m */; };
+		03A89AAA1D93DE0C000AB035 /* XCTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A89AA91D93DE0C000AB035 /* XCTestCase.m */; };
+		03A89AAC1D93DE1E000AB035 /* XCTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A89AAB1D93DE1E000AB035 /* XCTestSuite.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +19,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				03A89A9C1D93CD38000AB035 /* XCTest_Stub.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,8 +26,12 @@
 
 /* Begin PBXFileReference section */
 		03A89A981D93CD38000AB035 /* libXCTest-Stub.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libXCTest-Stub.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		03A89A9B1D93CD38000AB035 /* XCTest_Stub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCTest_Stub.h; sourceTree = "<group>"; };
-		03A89A9D1D93CD38000AB035 /* XCTest_Stub.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCTest_Stub.m; sourceTree = "<group>"; };
+		03A89AA41D93D15C000AB035 /* XCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTest.h; sourceTree = "<group>"; };
+		03A89AA51D93D15C000AB035 /* XCTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestCase.h; sourceTree = "<group>"; };
+		03A89AA61D93D21C000AB035 /* XCTestSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTestSuite.h; sourceTree = "<group>"; };
+		03A89AA71D93D4BF000AB035 /* XCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCTest.m; sourceTree = "<group>"; };
+		03A89AA91D93DE0C000AB035 /* XCTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCTestCase.m; sourceTree = "<group>"; };
+		03A89AAB1D93DE1E000AB035 /* XCTestSuite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCTestSuite.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +64,12 @@
 		03A89A9A1D93CD38000AB035 /* XCTest-Stub */ = {
 			isa = PBXGroup;
 			children = (
-				03A89A9B1D93CD38000AB035 /* XCTest_Stub.h */,
-				03A89A9D1D93CD38000AB035 /* XCTest_Stub.m */,
+				03A89AA41D93D15C000AB035 /* XCTest.h */,
+				03A89AA71D93D4BF000AB035 /* XCTest.m */,
+				03A89AA51D93D15C000AB035 /* XCTestCase.h */,
+				03A89AA91D93DE0C000AB035 /* XCTestCase.m */,
+				03A89AA61D93D21C000AB035 /* XCTestSuite.h */,
+				03A89AAB1D93DE1E000AB035 /* XCTestSuite.m */,
 			);
 			path = "XCTest-Stub";
 			sourceTree = "<group>";
@@ -122,7 +130,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03A89A9E1D93CD38000AB035 /* XCTest_Stub.m in Sources */,
+				03A89AAA1D93DE0C000AB035 /* XCTestCase.m in Sources */,
+				03A89AAC1D93DE1E000AB035 /* XCTestSuite.m in Sources */,
+				03A89AA81D93D4BF000AB035 /* XCTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +258,7 @@
 				03A89AA31D93CD38000AB035 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

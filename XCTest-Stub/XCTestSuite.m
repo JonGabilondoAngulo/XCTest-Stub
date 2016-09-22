@@ -1,13 +1,13 @@
 //
-//  XCTest_Stub.h
+//  XCTestSuite.m
 //  XCTest-Stub
 //
 //  Created by Jon Gabilondo on 22/09/2016.
 //  Copyright © 2016 organismo-mobile. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "XCTestSuite.h"
 
-@interface XCTest_Stub : NSObject
+@implementation XCTestSuite
 
 @end
